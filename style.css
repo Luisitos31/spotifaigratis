@@ -1,0 +1,68 @@
+h1 {
+    color: rgb(33, 243, 85);
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    padding: 15px;
+    border: 2px rgb(33, 243, 85) solid;
+    animation: rgb 3s infinite alternate;
+
+}
+
+.barra {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 250px;
+    height: 1000px;
+    border-radius: 15px;
+}
+
+@keyframes rgb {
+    0% {
+        color: rgb(33, 243, 85);
+    }
+
+    50% {
+        color: rgb(243, 240, 33);
+    }
+
+    100% {
+        color: rgb(34, 129, 22);
+    }
+}
+
+.fotinha {
+    height: 200px;
+    width: 120px;
+}
+
+.sla {
+    display: flex;
+}
+
+.sla2 {
+    display: flex;
+
+}
+
+.sla3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    height: 270px;
+    width: 270px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 100%;
+}
+
+h2 {
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 120px;
+    color: white;
+    font-family: sans-serif;
+}
